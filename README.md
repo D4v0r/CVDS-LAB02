@@ -35,7 +35,7 @@ mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.shapes.ShapeMain" -Dexec.a
 ### Pruebas
 
 * Sin parámetros
-  ![](Prueba1.PNG)
+  ![](prueba1.PNG)
 
   Este caso no es correcto debido a que se debe especificar el nombre de la figura.
 ---
@@ -49,5 +49,7 @@ mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.shapes.ShapeMain" -Dexec.a
   Este caso no es correcto debido a que la clase Enumerable `RegularShapeType` especifica que el nombre de la figura empieza con mayúscula.
 ---
 * Parámetro Hexagon
-  ![](Prueba4.PNG)
+  ![](prueba4.PNG)
+
+  Este caso es correcto.
 
