@@ -32,3 +32,22 @@ $ mvn -U package
 mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.shapes.ShapeMain" -Dexec.args="Triangle"
 ```
 
+### Pruebas
+
+* Sin parámetros
+  ![](Prueba1.PNG)
+
+  Este caso no es correcto debido a que se debe especificar el nombre de la figura.
+---
+* Parámetro: qwerty
+  ![](Prueba2.PNG)
+  Este caso no es correcto debido a que la clase Enumerable `RegularShapeType` no contiene ninguna figura llamada "qwerty".
+---
+* Parámetro: pentagon
+  ![](Prueba3.PNG)
+
+  Este caso no es correcto debido a que la clase Enumerable `RegularShapeType` especifica que el nombre de la figura empieza con mayúscula.
+---
+* Parámetro Hexagon
+  ![](Prueba4.PNG)
+
